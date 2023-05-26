@@ -1,4 +1,5 @@
 import React from 'react';
+import sleepminded from '../images/Sleepmindedimage.png'
 
 function Portfolio() {
   return (
@@ -17,7 +18,9 @@ function Portfolio() {
           <div className="card custom-card">
             <div className="card-body">
               <h5 className="card-title">Box 2</h5>
-              <a href="https://sleepminded.herokuapp.com/" className="card-text">Sleep-Minded</a>
+                            <p>
+                            <a href="https://sleepminded.herokuapp.com/"><img class="card-text" src={sleepminded} alt=""></img></a>
+                            </p>
             </div>
           </div>
         </div>
