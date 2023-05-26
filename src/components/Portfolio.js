@@ -1,5 +1,5 @@
 import React from 'react';
-import sleepminded from '../images/Sleepmindedimage.png'
+import sleepminded from '../images/image_720.png'
 
 function Portfolio() {
   return (
